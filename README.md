@@ -10,8 +10,8 @@ This project is an AI-first CRM system designed for managing Healthcare Professi
 
 It allows users to log interactions using:
 
-* 📝 Structured form UI (React + Redux)
-* 💬 AI-powered chat interface (LLM-based extraction)
+*  Structured form UI (React + Redux)
+*  AI-powered chat interface (LLM-based extraction)
 
 The system converts natural language into structured CRM data using an LLM agent with a LangGraph-inspired architecture.
 
