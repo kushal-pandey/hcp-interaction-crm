@@ -2,9 +2,9 @@
 
 ---
 
-# 📌 AI-First CRM – HCP Interaction Module
+#  AI-First CRM – HCP Interaction Module
 
-## 🧠 Overview
+##  Overview
 
 This project is an AI-first CRM system designed for managing Healthcare Professional (HCP) interactions in the life sciences domain.
 
@@ -17,9 +17,9 @@ The system converts natural language into structured CRM data using an LLM agent
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
-### 🤖 AI-Powered Data Extraction
+###  AI-Powered Data Extraction
 
 * Converts natural language into structured CRM fields
 * Extracts:
@@ -34,14 +34,14 @@ The system converts natural language into structured CRM data using an LLM agent
 
 ---
 
-### 💬 Dual Interaction System
+###  Dual Interaction System
 
 * Manual form entry
 * Conversational AI assistant for logging and corrections
 
 ---
 
-### 🧠 LangGraph-Inspired Architecture
+###  LangGraph-Inspired Architecture
 
 * Modular tool-based agent design
 * State-driven workflow
@@ -49,7 +49,7 @@ The system converts natural language into structured CRM data using an LLM agent
 
 ---
 
-### 📊 Smart Partial Updates
+###  Smart Partial Updates
 
 * Only updates fields mentioned in user input
 * Preserves existing form state
@@ -57,7 +57,7 @@ The system converts natural language into structured CRM data using an LLM agent
 
 ---
 
-### 🗄️ Database Persistence
+###  Database Persistence
 
 * PostgreSQL database
 * SQLAlchemy ORM
@@ -65,7 +65,7 @@ The system converts natural language into structured CRM data using an LLM agent
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 Frontend (React + Redux)
 ↓
@@ -81,7 +81,7 @@ PostgreSQL Database
 
 ---
 
-## 🧩 Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -108,23 +108,23 @@ PostgreSQL Database
 
 ---
 
-## 🧠 LangGraph Agent Design
+##  LangGraph Agent Design
 
 The system simulates a LangGraph workflow using modular tools:
 
-### 🔹 Router Node
+###  Router Node
 
 Determines execution path based on user input.
 
-### 🔹 Log Interaction Tool
+###  Log Interaction Tool
 
 Extracts structured CRM data from natural language.
 
-### 🔹 Edit Interaction Tool (design-ready)
+###  Edit Interaction Tool (design-ready)
 
 Handles corrections to existing interactions.
 
-### 🔹 Normalization Layer
+###  Normalization Layer
 
 Ensures:
 
@@ -132,7 +132,7 @@ Ensures:
 * Date normalization
 * Interaction type mapping
 
-### 🔹 Final Merge Node
+###  Final Merge Node
 
 Merges:
 
@@ -141,7 +141,7 @@ Merges:
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Chat Endpoint
 
@@ -180,7 +180,7 @@ Stores or updates structured CRM data in PostgreSQL.
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 Table: `interactions`
 
@@ -199,7 +199,7 @@ Table: `interactions`
 
 ---
 
-## 🧠 AI Behavior
+##  AI Behavior
 
 ### Extraction Rules
 
@@ -225,7 +225,7 @@ Only updates relevant fields.
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone repository
 
@@ -267,7 +267,7 @@ npm start
 
 ---
 
-## 📌 Example Use Case
+##  Example Use Case
 
 ### Input:
 
@@ -288,7 +288,7 @@ npm start
 
 ---
 
-## 🔥 Key Highlights
+##  Key Highlights
 
 * Real-world CRM simulation for life sciences
 * AI + structured form hybrid system
@@ -299,7 +299,7 @@ npm start
 
 ---
 
-## 📈 Future Improvements
+##  Future Improvements
 
 * Full LangGraph implementation with explicit tool nodes
 * Authentication system (OAuth2)
@@ -309,7 +309,7 @@ npm start
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Kushal Pandey**
 
@@ -317,7 +317,7 @@ Full-Stack Developer
 
 ---
 
-## ✅ Status
+##  Status
 
 * Backend: Working
 * AI Agent: Functional
