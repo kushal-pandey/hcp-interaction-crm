@@ -313,8 +313,7 @@ npm start
 
 **Kushal Pandey**
 
-AI/Full-Stack Developer
-Focused on building AI-native systems for real-world enterprise workflows.
+Full-Stack Developer
 
 ---
 
